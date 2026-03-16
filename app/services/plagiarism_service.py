@@ -80,19 +80,18 @@ def analyze_text(text: str) -> PlagiarismAnalysisResponse:
             )
     per_document.sort(key=lambda x: (-x.plagiarism_percentage, -x.average_similarity))
 
-    # For each unique input sentence, take only its BEST match score across all
-    # reference documents.  Averaging every duplicate match dilutes the result
-    # because a sentence that matches 10 docs also accumulates many weak
-    # (barely-above-threshold) duplicates that drag the mean down.
-    best_per_query: Dict[str, float] = {}
-    for m in matched_sentences:
-        key = m.source_sentence
-        if key not in best_per_query or m.similarity > best_per_query[key]:
-            best_per_query[key] = m.similarity
+    # Cross-language similarity should reflect multilingual semantic closeness,
+    # not lexical overlap after translation. For each input sentence, use the
+    # strongest semantic match across all reference documents.
+    best_semantic_per_query: Dict[str, float] = {}
+    for m in all_matches:
+        key = m.query_sentence
+        if key not in best_semantic_per_query or m.semantic_score > best_semantic_per_query[key]:
+            best_semantic_per_query[key] = m.semantic_score
 
     cross_avg = (
-        sum(best_per_query.values()) / len(best_per_query) * 100
-        if best_per_query
+        sum(best_semantic_per_query.values()) / len(best_semantic_per_query) * 100
+        if best_semantic_per_query
         else 0.0
     )
 
