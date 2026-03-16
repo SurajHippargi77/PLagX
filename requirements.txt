@@ -1,0 +1,26 @@
+# PLagX - Cross-Language Plagiarism Intelligence
+# Python 3.10+
+
+# NLP & embeddings
+sentence-transformers>=2.7.0
+torch>=2.0.0
+scikit-learn>=1.3.0
+
+# Translation (Helsinki-NLP MarianMT models via Hugging Face)
+transformers>=4.36.0
+sentencepiece>=0.1.99
+
+# Tokenization & NLP
+nltk>=3.8.1
+numpy>=1.24.0
+scipy>=1.11.0
+
+# PDF processing
+PyPDF2==3.0.1
+reportlab>=4.2.0
+
+# Rich CLI output
+rich>=13.0.0
+
+# Wikipedia API for downloading real reference documents
+wikipedia-api>=0.6.0

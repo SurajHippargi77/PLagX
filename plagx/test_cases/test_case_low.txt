@@ -1,0 +1,5 @@
+This paper presents an original framework for evaluating peer-feedback workflows in undergraduate writing courses.
+The experiment compares rubric calibration, reviewer drift, and annotation consistency across three semesters.
+Results suggest that explicit scoring criteria improve inter-rater reliability and reduce grading variance.
+We also propose a lightweight dashboard for instructors to audit disagreement clusters and provide targeted interventions.
+Although the study discusses machine assistance, it does not rely on standard encyclopedia-style definitions.

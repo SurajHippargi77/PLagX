@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PLagX – Cross-Language Plagiarism Intelligence</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: { 900: '#0f172a', 800: '#1e293b', 700: '#334155', 600: '#475569' },
+            accent: { teal: '#14b8a6', purple: '#a78bfa' }
+          },
+          fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+          animation: { 'fade-in': 'fadeIn 0.4s ease-out', 'spin-slow': 'spin 1s linear infinite' }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    .glass { background: rgba(30, 41, 59, 0.6); backdrop-filter: blur(12px); border: 1px solid rgba(148, 163, 184, 0.12); }
+    .progress-ring-circle { transition: stroke-dashoffset 0.6s ease-out; }
+    .drag-over { @apply border-accent-teal bg-teal-500/10; }
+  </style>
+</head>
+<body class="min-h-screen bg-navy-900 text-slate-200 font-sans antialiased">
+  <!-- Header -->
+  <header class="border-b border-slate-700/50 bg-navy-900/80 backdrop-blur-sm sticky top-0 z-10">
+    <div class="max-w-6xl mx-auto px-4 py-5">
+      <h1 class="text-2xl md:text-3xl font-bold tracking-tight text-white">
+        PLagX <span class="text-accent-teal">–</span> Cross-Language Plagiarism Intelligence
+      </h1>
+      <p class="text-slate-400 text-sm mt-1">Detect translation-based plagiarism between Dutch and English research papers</p>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-4 py-8 space-y-8">
+    <!-- Upload Section -->
+    <section class="glass rounded-2xl p-6 md:p-8 shadow-xl transition-all duration-300 hover:border-slate-500/30">
+      <h2 class="text-lg font-semibold text-white mb-4">Submit Content for Analysis</h2>
+      <p class="text-slate-400 text-sm mb-4">Upload an English PDF or paste text below. Content is compared against 10 static Dutch reference documents.</p>
+
+      <!-- Drag & Drop Zone -->
+      <div id="dropZone" class="border-2 border-dashed border-slate-600 rounded-xl p-8 text-center cursor-pointer transition-all duration-200 hover:border-slate-500 hover:bg-slate-800/30">
+        <input type="file" id="fileInput" accept=".pdf" class="hidden" />
+        <p class="text-slate-400">Drag & drop a PDF here or <span class="text-accent-teal font-medium">browse</span></p>
+        <p class="text-slate-500 text-sm mt-1">English research paper (PDF only)</p>
+      </div>
+
+      <div class="mt-4 flex items-center gap-4">
+        <span class="text-slate-500 text-sm">or paste text:</span>
+        <textarea id="textInput" rows="3" placeholder="Paste English research text here…" class="flex-1 rounded-lg bg-navy-800 border border-slate-600 text-slate-200 placeholder-slate-500 px-4 py-2 focus:ring-2 focus:ring-accent-teal/50 focus:border-accent-teal outline-none transition-all"></textarea>
+      </div>
+
+      <div class="mt-4 flex flex-wrap gap-3">
+        <button id="analyzeBtn" class="px-5 py-2.5 rounded-lg bg-accent-teal text-white font-medium hover:bg-teal-500 transition-all duration-200 shadow-lg hover:shadow-teal-500/25 disabled:opacity-50 disabled:cursor-not-allowed">
+          Analyze for Plagiarism
+        </button>
+        <button id="clearBtn" class="px-5 py-2.5 rounded-lg border border-slate-600 text-slate-300 hover:bg-slate-700/50 transition-all duration-200">
+          Clear
+        </button>
+      </div>
+    </section>
+
+    <!-- Loading -->
+    <section id="loadingSection" class="hidden glass rounded-2xl p-8 text-center">
+      <div class="inline-block w-10 h-10 border-2 border-accent-teal border-t-transparent rounded-full animate-spin mb-4"></div>
+      <p class="text-slate-300">Analyzing...</p>
+    </section>
+
+    <!-- Results -->
+    <section id="resultsSection" class="hidden space-y-6 animate-fade-in">
+      <h2 class="text-xl font-semibold text-white">Plagiarism Results</h2>
+
+      <!-- Summary Cards -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Circular Progress -->
+        <div class="glass rounded-2xl p-6 flex flex-col items-center justify-center">
+          <div class="relative w-40 h-40">
+            <svg class="w-full h-full -rotate-90" viewBox="0 0 100 100">
+              <circle cx="50" cy="50" r="42" fill="none" stroke="rgba(71,85,105,0.5)" stroke-width="8" />
+              <circle id="progressRing" class="progress-ring-circle" cx="50" cy="50" r="42" fill="none" stroke="#14b8a6" stroke-width="8" stroke-dasharray="264" stroke-dashoffset="264" stroke-linecap="round" />
+            </svg>
+            <div class="absolute inset-0 flex items-center justify-center">
+              <span id="overallPercent" class="text-3xl font-bold text-white">0</span>
+              <span class="text-slate-400 text-lg">%</span>
+            </div>
+          </div>
+          <p class="text-slate-400 mt-2">Overall Plagiarism</p>
+        </div>
+
+        <!-- Cross-language similarity and per-document bars -->
+        <div class="glass rounded-2xl p-6">
+          <p class="text-slate-400 mb-2">Cross-Language Similarity</p>
+          <p class="text-2xl font-bold text-accent-teal"><span id="dutchPercent">0</span>%</p>
+          <p class="text-slate-400 text-xs mt-3 mb-2">Language Match Breakdown</p>
+          <div class="mt-1" id="languageSummary"></div>
+          <p class="text-slate-500 text-xs mt-1">Per-document plagiarism across all languages</p>
+          <div class="mt-4 space-y-3" id="languageBars"></div>
+        </div>
+      </div>
+
+      <!-- Matched Sentences -->
+      <div class="glass rounded-2xl p-6">
+        <div class="flex items-center justify-between mb-4">
+          <h3 class="text-lg font-semibold text-white">Matched Sentences</h3>
+          <button id="downloadReportBtn" class="px-4 py-2 rounded-lg bg-accent-purple/20 text-accent-purple border border-accent-purple/40 hover:bg-accent-purple/30 transition-all duration-200 text-sm font-medium">
+            Download Report
+          </button>
+        </div>
+        <p class="text-slate-400 text-sm mb-4"><span id="matchedCount">0</span> sentence(s) matched above threshold.</p>
+        <div id="matchedList" class="space-y-3 max-h-96 overflow-y-auto"></div>
+      </div>
+    </section>
+
+    <!-- Empty state when no results yet -->
+    <section id="emptyState" class="glass rounded-2xl p-8 text-center text-slate-500">
+      <p>Upload a PDF or paste English text, then click <strong class="text-slate-400">Analyze for Plagiarism</strong> to see results.</p>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-700/50 mt-12 py-6">
+    <div class="max-w-6xl mx-auto px-4 text-center text-slate-500 text-sm">
+      Designed for Academic Integrity
+    </div>
+  </footer>
+
+  <script>
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+    const textInput = document.getElementById('textInput');
+    const analyzeBtn = document.getElementById('analyzeBtn');
+    const clearBtn = document.getElementById('clearBtn');
+    const loadingSection = document.getElementById('loadingSection');
+    const resultsSection = document.getElementById('resultsSection');
+    const emptyState = document.getElementById('emptyState');
+    const progressRing = document.getElementById('progressRing');
+    const overallPercent = document.getElementById('overallPercent');
+    const dutchPercent = document.getElementById('dutchPercent');
+    const languageSummary = document.getElementById('languageSummary');
+    const languageBars = document.getElementById('languageBars');
+    const matchedList = document.getElementById('matchedList');
+    const matchedCount = document.getElementById('matchedCount');
+    const downloadReportBtn = document.getElementById('downloadReportBtn');
+
+    let selectedFile = null;
+    const circumference = 2 * Math.PI * 42;
+
+    dropZone.addEventListener('click', () => fileInput.click());
+    dropZone.addEventListener('dragover', (e) => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+    dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+    dropZone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('drag-over');
+      const f = e.dataTransfer?.files?.[0];
+      if (f && f.name.toLowerCase().endsWith('.pdf')) {
+        selectedFile = f;
+        dropZone.querySelector('p').textContent = 'Selected: ' + f.name;
+      }
+    });
+    fileInput.addEventListener('change', (e) => {
+      const f = e.target.files?.[0];
+      if (f) { selectedFile = f; dropZone.querySelector('p').textContent = 'Selected: ' + f.name; }
+    });
+
+    clearBtn.addEventListener('click', () => {
+      selectedFile = null;
+      fileInput.value = '';
+      textInput.value = '';
+      dropZone.querySelector('p').textContent = 'Drag & drop a PDF here or browse';
+      dropZone.querySelector('p').nextElementSibling.textContent = 'English research paper (PDF only)';
+      clearOutput();
+    });
+
+    function clearOutput() {
+      setLoading(false);
+      resultsSection.classList.add('hidden');
+      emptyState.classList.remove('hidden');
+
+      overallPercent.textContent = '0.0';
+      dutchPercent.textContent = '0.0';
+      progressRing.style.strokeDashoffset = circumference;
+
+      languageSummary.innerHTML = '';
+      languageBars.innerHTML = '';
+      matchedList.innerHTML = '';
+      matchedCount.textContent = '0';
+      window.lastReport = null;
+    }
+
+    function setLoading(show) {
+      loadingSection.classList.toggle('hidden', !show);
+      analyzeBtn.disabled = show;
+    }
+
+    function setResults(data) {
+      emptyState.classList.add('hidden');
+      resultsSection.classList.remove('hidden');
+
+      const pct = data.overall_plagiarism_percentage ?? 0;
+      overallPercent.textContent = pct.toFixed(1);
+      const offset = circumference - (pct / 100) * circumference;
+      progressRing.style.strokeDashoffset = Math.max(0, offset);
+
+      const crossPct = data.cross_language_similarity_percentage ?? data.dutch_similarity_percentage ?? 0;
+      dutchPercent.textContent = crossPct.toFixed(1);
+
+      const defaultLangMap = {
+        Dutch: 0,
+        Japanese: 0,
+        German: 0,
+        Spanish: 0,
+        Portuguese: 0,
+      };
+      const langMap = { ...defaultLangMap, ...(data.per_language_similarity || {}) };
+      languageSummary.innerHTML = '';
+      const langEntries = Object.entries(langMap)
+        .sort((a, b) => (b[1] || 0) - (a[1] || 0));
+
+      const row = document.createElement('div');
+      row.className = 'grid grid-cols-2 md:grid-cols-3 gap-2';
+      langEntries.forEach(([lang, pct]) => {
+        const chip = document.createElement('div');
+        chip.className = 'rounded-lg border border-slate-600 bg-navy-800/70 px-3 py-2 text-sm text-slate-200';
+        const value = Number.isFinite(Number(pct)) ? Number(pct).toFixed(1) : '0.0';
+        chip.innerHTML = `<span class="text-slate-400">${escapeHtml(lang)}</span><span class="font-semibold text-accent-teal ml-2">${value}%</span>`;
+        row.appendChild(chip);
+      });
+      languageSummary.appendChild(row);
+
+      languageBars.innerHTML = '';
+      (data.per_document_similarity || []).forEach(d => {
+        const div = document.createElement('div');
+        div.className = 'flex items-center gap-2';
+        const label = `${d.document} (${d.language_name || d.language_code || 'N/A'})`;
+        div.innerHTML = `<span class="text-slate-400 w-40 truncate text-sm" title="${escapeHtml(label)}">${escapeHtml(label)}</span><div class="flex-1 h-3 bg-navy-800 rounded-full overflow-hidden"><div class="h-full bg-accent-teal rounded-full transition-all duration-500" style="width:${Math.min(100, d.plagiarism_percentage)}%"></div></div><span class="text-slate-300 text-sm w-14">${d.plagiarism_percentage.toFixed(1)}%</span>`;
+        languageBars.appendChild(div);
+      });
+
+      const matches = data.matched_sentences || [];
+      matchedCount.textContent = matches.length;
+      matchedList.innerHTML = '';
+      matches.forEach(m => {
+        const card = document.createElement('div');
+        card.className = 'rounded-lg bg-navy-800/80 border border-slate-600/50 p-4 text-sm';
+        const docName = m.reference_document ?? m.reference_paper_id ?? 'N/A';
+        const langName = m.language_name || m.language_code || 'N/A';
+        card.innerHTML = `
+          <p class="text-slate-300"><span class="text-accent-teal font-medium">Source:</span> ${escapeHtml(m.source_sentence)}</p>
+          <p class="text-slate-400 mt-2"><span class="text-accent-purple font-medium">Reference (${escapeHtml(langName)}):</span> ${escapeHtml(m.reference_sentence)}</p>
+          <p class="text-slate-500 mt-2"><span class="text-accent-teal font-medium">Translated:</span> ${escapeHtml(m.translated_reference_sentence || '')}</p>
+          <p class="text-slate-500 mt-1">Similarity: ${(m.similarity * 100).toFixed(1)}% · Document: ${escapeHtml(docName)}</p>
+        `;
+        matchedList.appendChild(card);
+      });
+
+      window.lastReport = data;
+    }
+
+    function escapeHtml(s) {
+      const div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+
+    downloadReportBtn.addEventListener('click', () => {
+      const data = window.lastReport;
+      if (!data) return;
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = `plagx-report-${data.analysis_id || 'report'}.json`;
+      a.click();
+      URL.revokeObjectURL(a.href);
+    });
+
+    analyzeBtn.addEventListener('click', async () => {
+      const text = textInput.value.trim();
+      if (!selectedFile && !text) {
+        alert('Please upload a PDF or paste English text.');
+        return;
+      }
+
+      setLoading(true);
+      try {
+        const formData = new FormData();
+        if (selectedFile) formData.append('file', selectedFile);
+        else if (text) formData.append('text', text);
+
+        const res = await fetch('/api/plagiarism/analyze', {
+          method: 'POST',
+          body: formData
+        });
+        if (!res.ok) {
+          const err = await res.json().catch(() => ({}));
+          const detail = err.detail;
+          const msg = typeof detail === 'string' ? detail : (Array.isArray(detail) ? detail.map(d => d.msg || d).join('; ') : null) || res.statusText || 'Analysis failed';
+          throw new Error(msg);
+        }
+        const data = await res.json();
+        setResults(data);
+        // Smooth scroll to results after UI updates (only on success)
+        setTimeout(() => {
+          resultsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 150);
+      } catch (e) {
+        alert('Error: ' + (e.message || 'Request failed'));
+      } finally {
+        setLoading(false);
+      }
+    });
+  </script>
+</body>
+</html>

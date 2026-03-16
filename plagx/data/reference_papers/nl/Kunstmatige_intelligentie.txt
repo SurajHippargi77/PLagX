@@ -1,0 +1,303 @@
+Kunstmatige intelligentie (KI) of artificiële intelligentie (AI) is het nabootsen van menselijke vaardigheden met een computersysteem, zoals: het aanleren, redeneren, anticiperen en plannen om zichzelf automatisch bij te sturen. Het wordt door een team van software engineers ontworpen, geconfigureerd en getest tot het zelfstandig kan beslissen zonder tussenkomst van menselijke intelligentie.
+
+AI-systeem
+Artificiële intelligentie wordt geoptimaliseerd met meerdere technieken, zoals machinelearning en besluitvormingen. Voor de ontwikkeling van een AI-systeem zijn de volgende technische aspecten essentieel:
+
+algoritmen
+krachtige computers
+wiskunde
+hoge opslagcapaciteit
+menselijke logica (big data)
+Het ontwikkelde, en vereenvoudigde, gegevensmodel kan bijvoorbeeld geïntegreerd worden in een toestel, om patronen razendsnel en nauwkeurig te herkennen. Een voorbeeld is de nieuwe AI-app, die aan de hand van een scan pijn kan herkennen bij katten. De app werd ontwikkeld door professor Kazuya Edamura en de Nihon Universiteit in Japan. De AI werd eerst getraind met 6.000 foto's van katten.
+Een AI-systeem met één onderwerp wordt een kleine AI genoemd en kan geïntegreerd worden in een app of smartphone. Dit heeft een laag energieverbruik. Een AI-chatbot behoort tot een grote AI en heeft een hoog energieverbruik, omdat het zich richt op algemene onderwerpen via een supercomputer.
+
+Type AI
+De vooruitgang en streefdoelen van artificiële intelligentie is algemeen aangenomen in vijf fases:
+
+Beknopte tijdlijn
+Sinds de publicatie in 1950 van "Computing Machinery and Intelligence" door Alan Turing, groeide de interesse fors om een intelligente machine te bouwen. Turing suggereerde dat mensen bestaande data gebruiken, analyseren, en met deze informatie beslissingen concluderen. De huidige AI is ook gericht op hoe computers beslissingen kunnen nemen op basis van bestaande gegevens.
+
+Eerste stappen
+De technologische middelen voor het realiseren van artificiële intelligentie waren in het begin vrij beperkt. Hierdoor draaiden de doelstellingen van AI minder ambitieus uit dan aanvankelijk gedacht. Zo vertelde Marvin Minsky in 1970 aan Life Magazine, "dat hij en zijn team binnen 8 jaar een machine met intelligentie van een gemiddelde mens hebben gebouwd". Maar een doorbraak kwam er niet vanwege de beperkte rekenkracht en opslagcapaciteit.
+
+Rekenkracht
+Door een technologische verbetering van de rekenkracht kwam er in de jaren 90 een opleving via patroonvergelijkingen en besluitvormingsprogramma's. Twee voorbeelden zijn ELIZA, en IBM’s computerprogramma Deep Blue, dat in 1997 de grootmeester schaken Garri Kasparov versloeg. Anno 2000 werden de meeste doelen van AI bereikt, waarna de ontwikkeling een tiental jaar werd afgezwakt. Dit had grotendeels te maken met beperkte groei van opslagcapaciteit en in mindere mate door gebrek aan financiering. 
+De doorbraak van rekenkracht en de groei van opslagmogelijkheden betekende later ook de doorbraak van smalle AI, zoals gezicht herkennen in een ruimte met meerdere objecten, zonder dat de gezichten op voorhand bekend zijn in het systeem of een enkel onderwerp dat getraind wordt om nieuwe informatie te bekomen.
+
+Geheugencapaciteit
+De wet van Moore speelt een belangrijke rol in de moderne artificiële intelligentie. De algoritmen zijn niet zozeer spectaculair verbeterd ten opzichte van de jaren 1990, maar de geheugencapaciteit van de huidige computers wel. Plots kon big data verzameld en opgeslagen worden om te analyseren en te classificeren, zodat computers konden leren van menselijke logica en hieruit nieuwe content creëren. Met deze belangrijke doorbraak kan Generatieve AI bijvoorbeeld miljoenen regels DNA-data analyseren en vanuit het niets nieuwe eiwitten genereren of unieke slogans bedenken voor bedrijven.
+Het ontwikkelingsproces voor de huidige AI bestaat uit een vijftal stappen:
+
+gegevensinput
+modelontwerp
+modeltraining
+testen, analyseren en hertrainen
+oplevering AI-model
+
+AI-agent
+In de media verschenen sinds 2024 volop interne technieken, per bedrijf, die ingezet worden om pogingen te ondernemen naar de volgende fase van AI, namelijk de kunstmatige algemene intelligentie met een zogenaamde AI-agent als tussenstap. De AI-agent werd voorgesteld als een gevorderde generatieve AI dat zelfstandig veelvuldige taken kan uitvoeren zoals een betaalbaar hotel selecteren, een reservering maken en meteen online de goedkoopste treintickets aanschaffen. Begin 2025 lanceerde OpenAI haar Deep Research-project, een agentic AI voor betalende gebruikers als antwoord op de nieuwe versie van DeepSeek. Deep Research is een model o3 speciaal afgestemd op zoekopdrachten en data-analyse.
+Google test met een kleine groep testgebruikers hun Project Mariner, een nieuwe versie van AI-toepassing Gemini die autonoom een browser kan besturen, zoals: het pijltje verplaatsen, knoppen aanklikken en formulieren invullen, precies zoals een mens dat zou doen. Een uitzondering zijn betalingen, dit moet nog steeds door een mens zelf geverifieerd worden voor de veiligheid.
+
+Poging tot generale AI
+Meerdere bedrijven zoals Google, Microsoft en OpenAI zijn volop in ontwikkeling naar een volgende fase in de AI. Het bedrijf OpenAI heeft in 2024 een nieuw ambitieus intern ontwikkelingsplanning voorgesteld om in vijf stappen de overgang te maken van generatieve AI naar kunstmatige algemene intelligentie. Het verloopt in vijf fases, waarvan al drie zijn gerealiseerd:
+
+Fase 1: chatbots zijn in staat te converseren in natuurlijke taal.
+Fase 2: redenerende AI-systemen die problemen kunnen oplossen van wiskundige en wetenschappelijke vraagstukken.
+Fase 3: de AI-agents kunnen enkele minuten na elkaar zonder toezicht zelfstandig taken uitvoeren op gebied van data-analyse.
+Fase 4: AI moet in staat zijn nieuwe ideeën te ontwikkelen die de menselijke kennis betekenisvol uitbreiden.
+Fase 5: de bereikte kunstmatige algemene intelligentie (AGI) die volledig onafhankelijk het werk van een volledige organisatie kan overnemen.
+
+Smalle AI
+Om de menselijke kennis te digitaliseren voor computerbeslissingen worden technieken gebruikt zoals machinelearning en deep learning. Deze vorm valt onder cognitieve AI en is een onmisbaar onderdeel in de huidige artificiële intelligentie. Er bestaan ook nog andere technieken zoals datawetenschappen.
+
+Datawetenschap
+Datawetenschap maakt gebruik van wiskunde en statistieken zoals metingen van afstanden van ogen, neus, lippen om een persoon te analyseren en te vergelijken met een AI-model met relevante datapunten. Vroeger was wiskunde de AI bij uitstek maar deze techniek is tegenwoordig enkel een onderdeel van AI.
+
+Machinelearning
+Een computersysteem wordt getraind met subsets van bestaande gegevens die het onderwerp analyseert en inzichten verwerft voor het herkennen van patronen om hieruit nieuwe en samengevatte informatie te concluderen. Dit proces wordt in de praktijk datamining genoemd en kan ongestructureerde gegevens filteren om relevante datapunten te ontcijferen.
+
+Robotica
+Robotica is een AI-software met fysieke uiterlijke kenmerken die zich via sensoren autonoom kan verplaatsen zonder instructies van een mens om zichzelf via terugkoppeling bij te sturen. De sensoren meten en screenen constant de omgeving. Belangrijk om te weten is dat niet elke robot met AI is uitgerust. Bijvoorbeeld een robotarm in een autofabriek is enkel geprogrammeerd voor een specifiek doel.
+
+Generatieve AI
+Het populaire GPT-3-AI-model van OpenAI werd in de eerste helft van 2020 gelanceerd. Hierbij stelden Katherine Elkins en Jon Chun zich de vraag of ChatGPT de turingtest zou doorstaan. Na onderzoek bleek dat GPT-3 met zijn huidige technologie nog niet de fase van generale AI heeft bereikt, maar wel het punt van generatieve kunstmatige intelligentie aan de hand van een deep-learning-techniek.
+
+Deep learning
+Deze techniek is een simulatie van biologische neurale netwerken via geavanceerde machinelearning. Deep learning (geavanceerde machinelearning) verbindt ook geneste neurale knooppunten en is geïnspireerd op het structuur van de hersenen via het Hopfield-netwerk, bekroond in 2024 met een Nobelprijs. Een kunstmatig neuraal netwerk leidt tot een reeks gerelateerde vragen voor elke vraag die beantwoord wordt en is in staat nieuwe content te creëren.
+Een kunstmatig neuraal netwerk is niet hetzelfde als een biologische neuraal netwerk. Een kunstmatig neuraal netwerk wordt met een technologie van nullen en enen gerealiseerd, terwijl een biologisch neuraal netwerk de stamcellen gebruiken om neuronen te kweken die in een computer worden gestopt. Ook is het implanteren van neurologische chips in de hersenen voor het creëren van een symbiose tussen menselijke hersenen en kunstmatige intelligentie, geen kunstmatig neuraal netwerk, maar prikkels die omgezet worden in digitale signalen om het brein met een computer te verbinden.
+
+Machine-learning-algoritmen
+Om AI te trainen wordt een AI-leermodel gebruikt om (big) data te verwerken en te analyseren. Een algoritme behoort tot de basiselementen die nodig zijn om een AI-systeem te trainen en te hertrainen. Een algoritme kent geen vermoeidheid en doet precies waarvoor het is geprogrammeerd als er geen bugs aanwezig zijn. Het verwerkt snel grote hoeveelheden data tot een geoptimaliseerd taalmodel of gegevensmodel. Voorbeelden van eindproducten zijn patroonherkenning in smartphones, het stellen van diagnoses van ziektebeelden, zelfrijdende auto's en zoekbots.
+Een machine-learning-algoritme bevat vijf leermodellen die vervolgens gecombineerd kunnen worden naargelang het beogende doel:
+
+Gecontroleerd leren: een antwoordsleutel wordt op voorhand bepaald om hiermee telkens te vergelijken.
+Ongecontroleerd leren: er is geen antwoordsleutel beschikbaar maar analyseert en zoekt zelf relevante patronen.
+Half gecontroleerd leren: een combinatie van gecontroleerd en ongecontroleerd leren.
+Zelfcontrolerend leren: simuleert het neurale netwerk en voorspelt uit ongestructureerde gegevens de ontbrekende puzzelstukjes.
+Versterkt leren: gebaseerd op datawetenschap en beloningssysteem.
+
+AI-technologieën
+AI is al een groot deel van onze samenleving geworden met technieken om het ons gemakkelijker te maken. Maar AI wordt ook ingezet bij niet-alledaagse zaken of niet voor de hand liggende onderwerpen. AI kent geen grenzen op dit vlak en kan met allerlei andere technieken gecombineerd en geïntegreerd worden.
+
+Biologie
+Technieken als neurale netwerken en genetische algoritmen laten zien dat de AI ook inspiratie haalt uit de biologie. Datawetenschap is vaak gerelateerd aan AI. De kunstmatige intelligentie zou dus ook gezien kunnen worden als een brug tussen verschillende disciplines.
+
+Semantisch zoeken
+Google maakt voor het zoekalgoritme steeds meer gebruik van AI-technologie zoals Hummingbird en RankBrain. Dit implementeert onder andere semantisch zoeken en zorgt ervoor dat een zoekopdracht direct het antwoord geeft in de resultaten. Bijvoorbeeld zoek: "Wat is de hoofdstad van Nederland?" Dan zal het eerste resultaat "Amsterdam" zijn. Ook in andere facetten zoals online marketing wordt artificiële intelligentie steeds belangrijker. Zo kunnen AI-tools marketeers onder meer helpen bij marketing-automatisatie en personalisatie.
+
+Computerspellen
+Reeds vanaf de jaren 50 is AI een onderdeel geworden van spelcomputers. In de jaren 80 werd AI ook bij videospellen betrokken om bij de non-player characters responsief en adaptief gedrag te genereren, behalve bij casinospellen, die op willekeurige modellen gebaseerd zijn. Door de jaren heen kreeg AI ook systematisch meerdere rollen toegekend zoals ontwerp, ontwikkeling en fysieke waarnemingen. Vandaag de dag wordt AI ook ingezet als creativiteit tijdens het ontwikkelen van games. Zo is het mogelijk via machinelearning eerst slimme tools te trainen die in de plaats van de mens creatief kunnen zijn. Een voorbeeld is het opvullen en bemeubelen van ruimtes.
+Een beknopte tijdlijn:
+
+In de jaren 50 zijn er tal van wiskundige strategische spellen geschreven zoals Nim, Ferranti Mark 1-machine en schaakspellen.
+In de jaren 70 is het spel Space Invaders enorm populair geworden door steeds moeilijkere levels en verschillende bewegingspatronen te ervaren naargelang het spel vordert.
+In 1980 werd Pac-Man met AI-patronen voor een doolhof uitgebracht.
+In 1988 was het actierollenspel (RPG) First Queen de eerste RPG met personages die kon bestuurd worden door een AI-engine.
+In de jaren 90 namen computers ook voor het eerst realtime-beslissingen tijdens het gamen.
+Vandaag de dag zijn 3D-brillen een ware hype in games geworden, waarbij de gamers de effecten zelf kunnen waarnemen tijdens het gamen.
+
+AI detecteren
+Er bestaan reeds apps en programma's die teksten en afbeeldingen door AI-systemen gemaakt kunnen detecteren. Een gratis computerprogramma "DeepFake-o-meter" is een voorbeeld hiervan. AI-content met mensen hebben nog steeds mankementen zoals onnatuurlijke handen, zes vingers, alle vingers even lang, rare houdingen of vreemde schaduwvormen midden in het oog.
+Dat echte- en AI-foto's moeilijk te onderscheiden zijn, bewees fotograaf Miles Astray met zijn flamingo op een wit strand. Hij won de People's Vote Award in de AI-categorie van de "fotowedstrijd 1839 Awards". Hij werd echter gediskwalificeerd omdat hij een echte foto had ingestuurd. Achteraf zei hij: "Ik ben blij om te zien dat dit experiment mijn hypothese heeft bevestigd: er is niets meer fantastisch of creatief dan Moeder Natuur zelf". Hiermee wou hij iedereen laten herinneren dat mensen ook nog creatief kunnen zijn zonder AI.
+
+Geschiedenis
+Het smeden van computerintelligentie begon in de jaren dertig door de Engelse wiskundige Alan Turing, een van de voorvaders van de informatica. Computers waren voor 1949 ontzettend duur en konden geen commando's opslaan om te herinneren wat ze deden. De theorieën waren aanwezig om geverifieerd te worden maar er waren nog belangrijke obstakels te overbruggen om effectief een intelligente machine te bouwen.
+
+Alan Turing
+In 1936 probeerde Alan Turing voor het eerst een antwoord op de vraag te formuleren of machines zouden kunnen denken en menselijke intelligentie vertonen. Aan de hand van een turingtest publiceerde hij het volgende gedachte-experiment: stel een computer kan iemand laten geloven dat hij een mens is, dan concludeerde hij dat de computer intelligentie vertoont. In 1950 publiceerde Turing een aanvulling op zijn turingtest, de Computing Machinery and Intelligence, waarin hij uitvoerig bespreekt hoe intelligente machines kunnen worden gebouwd om hun intelligentie te testen. Sinds 1965 wordt er jaarlijks een Turing Award uitgereikt, de meest prestigieuze prijs te winnen in de informatica.
+
+Machine-learning-algoritme
+In 1955, vijf jaar later, werd het bewijs van turing aangetoond met de Logic Theorist, een geschreven computerprogramma door Allen Newell, Cliff Shaw en Herbert Simon. Dit wordt tegenwoordig gezien als de eerste kunstmatige intelligentieprogramma en werd gepresenteerd in 1956 tijdens Dartmouth Summer Research Project on Artificial Intelligence (DSRPAI), georganiseerd door John McCarthy en Marvin Minsky. McCarthy gebruikte voor dit evenement de term "Kunstmatige intelligentie", de Nederlandse vertaling van zijn zelf bedachte Engelse term "Artificial Intelligence".
+Vanaf 1957 kon een computer meer en meer informatie opslaan wat een opleving gaf om AI-systemen verder te ontwikkelen. Allen Newell, Cliff Shaw en Herbert Simon van RAND Corporation gaven in 1957 na de Logic Theorist een demonstratie van de General Problem Solver (GPS) met hun vernieuwde algoritme genaamd means–ends analysis, het allereerste machine-learning-algoritme dat tegenwoordig bij sommige AI-systemen nog steeds gebruikt wordt.
+
+Eerste chatbot
+Midden jaren 60 ontstond er forse verbeteringen in het oplossen van problemen met de nieuwe machinelearning-algoritme-aanpak en werd de chatbot ELIZA geïntroduceerd door Joseph Weizenbaum, een Duitse informaticus die er in slaagde successen te boeken met zijn interpretatie van gesproken taal met computers. Een persoon kan met ELIZA een gesprek voeren en de reacties van het programma komen tot stand in de vorm van een patroonvergelijking. Sinds 2008 wordt er jaarlijks een Weizenbaum Award uitgereikt in het wetenschappelijk tijdschrift Ethics and Information Technology.
+
+Onderzoek en financiering
+In de jaren 1960-1969 financierde DARPA, het onderzoeksinstituut van het Amerikaans leger, researchprojecten rond kunstmatige intelligentie. In 1969 kwam de financiering zwaar onder druk te staan door gebrek aan rekenkracht en opslagmogelijkheden. Hans Moravec, destijds promovendus van McCarthy, verklaarde dat computers nog steeds miljoenen keren te zwak waren om informatie te tonen.
+Kunstmatige intelligentie is een interdisciplinair vakgebied. De onderzoekgebieden variëren van informatica tot datawetenschappen. Een greep uit deze gebieden: patroonvergelijkingen, booleaanse algebra, cognitieve psychologie, logica, statistiek en linguïstiek.
+
+Chinese-kamer-experiment
+Begin jaren 80 liet filosoof John Searle weten het niet volledig eens te zijn met de conclusie van Turing. Volgens Turing zijn sommige computerprogramma’s intelligent te noemen maar moet het wel de turingtest doorstaan. Maar Searle bedacht en publiceerde in 1980 hiervoor het Chinese-kamer-experiment als tegenargument, een gedachte-experiment dat aantoont dat als een computer zich precies gedraagt als een mens, nog niet duidelijk is dat de computer ook denkt als een mens als deze de turingtest doorstaat. Hij neemt een mens als voorbeeld in een kamer, die Chinese tekens moet vertalen aan de hand van een codeboek. Een persoon die de vertaling overhandigd krijgt, zal denken dat de vertaler Chinees kan. Maar de persoon in de Chinese kamer kan evengoed een computer zijn.
+Beide experimenten hebben een relevantie. Stel dat een kleuter een aantal foto’s van katten te zien krijgt. Dan zal de gemiddelde kleuter daarna een kat kunnen herkennen, maar volgens het Chinese-kamer-experiment zegt dat nog niets over hoe intelligent de kleuter is. Wanneer een computer ook een kat kan herkennen, vertoont de computer volgens de turingtest dezelfde mate van intelligentie als de kleuter. Dus is het moeilijk te definiëren wat intelligentie nu precies inhoudt. Maar voor AI hoeft dat niet per definitie een probleem te zijn vandaag de dag, want het is immers gedefinieerd in woorden wat de streefdoelen zijn voor hedendaagse AI. (Zie tabel type AI).
+
+Hopfield-netwerk
+Rond de jaren 80 werd AI-ontwikkeling verder aangewakkerd mede door John Hopfield en David Rumelhart, zij populariseerden in 1982 een deep-learning-techniek waarmee computers kunnen leren van menselijke ervaringen, ook het Hopfield-netwerk genoemd. Dit zorgde voor een boost en een verbeterde algoritmische toolkit met een verhoging van fondsen tot wel 400 miljoen dollar tussen 1982 en 1990. Rond dezelfde periode introduceerde Edward Feigenbaum ook zijn besluitvormingsproces, een expertsysteem om een menselijke expert na te bootsen.
+In 2024 won de Amerikaan John Hopfield en de Canadees Geoffrey Hinton samen de Nobelprijs van Fysica als pioniers in het AI-onderzoek en kunstmatige neurale netwerken. Hopfield won voor de fysische eigenschap van atomen en Hinton voor het statistisch netwerk van zijn boltzmann-machine.
+
+Publieke belangstelling
+Vanaf 1990 viel de artificiële intelligentie niet langer meer onder het onderwerp "onderzoek", maar onder iets dat steeds vaker in de praktijk werd toegepast. Ondanks dat er geen grote financieringen meer werden toegekend, kwam AI toch in een stroomversnelling terecht omdat de opslagcapaciteiten toenamen. Dit is de hoofdreden waarom computer Deep Blue de wereldkampioen Gary Kasparov schaken in 1997 kon verslaan, en eveneens de Chinese Go-kampioen Ke Jie in 2017 kon verliezen van de computer Google's AlphaGo. Dit berust op wiskundige berekeningen en besluitvorming die vanuit elke gegeven startpositie vooruit denkt en de stellingen evalueert. De vereiste parameters konden (beperkt) getuned worden. Dit behoort tot het leermodel versterkt leren.
+In datzelfde jaar, in 1997, werd de spraakherkenningssoftware ontwikkeld door Dragon Systems en geïntegreerd in Windows, alsook Kismet, een robot ontwikkeld door Cynthia Breazeal om emoties te herkennen en te tonen. In de jaren 90 en 2000 waren veel van de historische doelen van kunstmatige intelligentie eindelijk bereikt.
+
+Doorbraak
+Ondanks de middelen op gebied van machinelearning al jaren voorhanden waren, kwam er pas in november 2022 de allereerste algemene AI-chatbot ChatGPT op de markt voor het grote publiek door OpenAI. Mede te danken aan de wet van Moore en de mogelijkheden van de rekenkracht, lanceerde grote softwaregiganten in een zeer korte tijd ook plots een AI-chatbot, zoals Google Gemini en Microsoft 365 Copilot. We leven in een tijd waarin enorme hoeveelheden ruwe omslachtige data door een computer kan worden verzameld en verwerkt tot informatie en patroonpunten. In de nabije toekomst liggen nog vele potentiële doorbraken in de artificiële intelligentie te wachten, maar wanneer de echte generatieve-AI aanbreekt en hoe die er uit zal zien weet momenteel nog niemand.
+
+Toezichthouders
+België
+In België wordt het IT-beleid, met onder meer AI, overkoepeld door de F.O.D. Beleid en Ondersteuning, voor Vlaanderen door de Vlaamse Adviesraad voor Innoveren en Ondernemen (VARIO).
+
+Nederland
+AI is de gezamenlijke verantwoordelijkheid van de ministeries van Economische Zaken, Justitie en Binnenlandse Zaken.
+
+Europese wetgeving
+Op 21 april 2021 publiceerde de Europese Commissie de tekst van de Verordening inzake de Europese aanpak op het gebied van kunstmatige intelligentie voor het oprichten van de European Artificial Intelligence Board. De AI-wet is uiteindelijk op 1 augustus 2024 in werking getreden en zal op 2 augustus 2026 volledig van toepassing zijn, op enkele uitzonderingen na zoals Artikel 4 over AI-geletterdheid, dat op 2 februari 2025 reeds van toepassing is.
+Artikel 3, punt 56 van de verordening definieert AI-geletterdheid als: "de vaardigheden, kennis en het begrip waarmee aanbieders, gebruiksverantwoordelijken en betrokken personen in staat zijn om – rekening houdend met hun respectieve rechten en plichten in het kader van deze verordening – te komen tot een geïnformeerde toepassing van AI-systemen, alsook bewustwording te ontwikkelen ten aanzien van de mogelijkheden en risico's van AI en de potentiële schade die zij kan veroorzaken."
+Artikel 4 stelt vast dat aanbieders en gebruiksverantwoordelijken van AI-systemen maatregelen moeten nemen om, zoveel als mogelijk, te zorgen voor een toereikend niveau van AI-geletterdheid bij hun personeel en andere personen die namens hen AI-systemen exploiteren en gebruiken. Daarbij moet rekening worden gehouden met hun technische kennis, ervaring, onderwijs en opleiding en de context waarin de AI-systemen zullen worden gebruikt, evenals met de personen of groepen personen ten aanzien van wie de AI-systemen zullen worden gebruikt.
+
+Internationaal
+Verschillende internationale instellingen en organisaties hebben gepleit voor een verantwoorde regulering (governance) van kunstmatige intelligentie:
+
+Canadese instellingen lanceerden, op initiatief van de Universiteit van Montreal, in 2018 de Montréal Declaration for a Responsible Development of Artificial Intelligence.
+De Mozilla Foundation noemde in 2020 in haar “Witboek over Betrouwbare AI” een reeks belangrijke uitdagingen die moeten worden aangepakt via regelgeving en overleg.
+De UNESCO keurde in november 2021 een “Aanbeveling over de Ethiek van Kunstmatige Intelligentie” goed, en publiceerde in 2023 “Ontbrekende schakels in AI-governance”.
+De Raad van Europa publiceerde in maart 2023 haar pleidooi voor internationale regulering van kunstmatige intelligentie.
+“Openheid (open source), transparantie en brede toegang is dan weer de sleutel om de huidige en toekomstige schade van AI-systemen te beperken”, aldus meer dan 300 computerwetenschappers en vooraanstaande IT'ers, in een open brief van 31 oktober 2023, onder de koepel van de Mozilla Foundation.
+
+Conferenties
+AI Safety Summit
+Een belangrijke wereldconferentie is de AI Safety Summit, voor het eerst gehouden op een tweedaagse bijeenkomst, eind 2023, in Bletchley Park in het Verenigd Koninkrijk. De mogelijk 'serieuze en zelfs catastrofale' gevaren van kunstmatige intelligentie werden daar internationaal erkend in de “Bletchley-verklaring” van 1 november 2023, ondertekend door 28 landen, waaronder de VS en het VK, China, Brazilië, India, Japan, plus de Europese Unie. Critici stelden echter dat op de Summit “niet de juiste vragen waren gesteld”. 
+Als vervolgconferenties kwamen de AI Seoul Summit op 21-22 mei 2024 en 10-11 november 2025, en de AI Action Summit op 10-11 februari 2025 in Parijs.
+
+Andere initiatieven
+Naar aanleiding van de AI Safety Summit kondigde de secretaris-generaal van de VN de oprichting aan van een Hoog Adviesorgaan voor kunstmatige intelligentie, dat onderzoek moet uitvoeren en aanbevelingen uitbrengen voor de internationale governance van AI. Een eerste rapport volgde in september 2024.
+Na de AI Safety Summit van 2023 volgden meerdere internationale bijeenkomsten en beurzen onder verschillende namen: zoals World Summit AI en World AI Conference,
+
+AI-index
+Sedert 2018 publiceert het Institute for Human-Centered AI aan de Stanford-universiteit een jaarlijkse AI index, waarin gegevens met betrekking tot kunstmatige intelligentie worden verzameld, met de bedoeling een grondiger en genuanceerder begrip te ontwikkelen van het complexe gebied van AI.
+De editie 2024 stelt vast: “een decennium geleden waren de beste AI-systemen ter wereld niet in staat om objecten in afbeeldingen op een menselijk niveau te classificeren. AI had moeite met taalbegrip en kon geen wiskundige problemen oplossen. Tegenwoordig overtreffen AI-systemen vaak menselijke prestaties op standaard benchmarks.” Het rapport vat de belangrijkste trends samen:
+
+AI verslaat mensen bij sommige taken, maar niet bij alle.
+De techindustrie blijft het AI-onderzoek domineren (ten opzichte van de academische wereld).
+Trainingskosten voor nieuwe modellen stijgen snel.
+De Verenigde Staten kloppen China, de EU en het Verenigd Koninkrijk als de belangrijkste bron van AI-topmodellen.
+Robuuste en gestandaardiseerde evaluaties voor verantwoorde (risico’s en beperkingen) LLM-taalmodellen ontbreken; elke ontwikkelaar gebruikt eigen benchmarks.
+Investeringen in generatieve AI schieten omhoog.
+AI maakt werknemers productiever en leidt tot werk van hogere kwaliteit, zo blijkt uit de cijfers, al is nuance geboden.
+Wetenschappelijke vooruitgang is in een stroomversnelling gekomen dankzij AI.
+Regulering van AI (regels en reglementen) neemt sterk in aantal toe in de Verenigde Staten.
+Kennis en bewustzijn rond de potentiële impact van AI is wereldwijd toegenomen, maar ook de nervositeit.
+Een peiling uit 2023 in 31 landen, uitgevoerd door Ipsos, wees op gemengde gevoelens ten aanzien van AI:
+
+Het vertrouwen in AI varieert sterk per regio; het is over het algemeen veel hoger in opkomende markten en onder mensen onder de 40 dan in hoge-inkomenslanden en onder Gen X'ers en Boomers.
+Het vertrouwen van mensen dat bedrijven die AI gebruiken hun persoonlijke gegevens zullen beschermen, varieert van 72% in Thailand tot slechts 32% in Frankrijk, Japan en de VS.
+Het percentage mensen dat erop vertrouwt dat AI groepen mensen niet zal discrimineren, is nog sterker verdeeld over de landen.
+De nervositeit rond AI is het hoogst in alle overwegend Engelstalige landen en het laagst in Japan, Zuid-Korea en Oost-Europa.
+
+AI-modellen
+Europees
+Vanaf 2020 ontstonden in verschillende Europese landen projecten voor kunstmatige intelligentie, veelal grote taalmodellen (Engels: Large Language Model (LLM)), meestal in open source, en sommige modellen “spreken” meerdere Europese talen. Het gaat onder meer om:
+
+Bulgarije: Instituut voor Informatica, Kunstmatige Intelligentie en Technologie (INSAIT).
+Denemarken: Danish Foundation Models.
+Duitsland: Aleph-alpha.
+Finland: Turku universiteit.
+Frankrijk: het reeds eerder bestaande BLOOM, en daarnaast Mistral, dat ook diende als ruggengraat van verschillende andere Europeestalige modellen.
+Griekenland: Ubitech AIlabs.
+Italië: Modello Italia, door de bedrijven Cineca en iGenius.
+Letland: LVBERT, aan de Universiteit van Letland (IMCS).
+Nederland: GPT-NL, door TNO en anderen.
+Oostenrijk: xLSTM, door het Technologisch Instituut aan de Johannes Kepler Universiteit Linz.
+Polen: PLLuM, door een samenwerking van enkele instituten.
+Roemenië: ILDS, Instituut voor Logica en Informatica van Boekarest.
+Spanje: opvolger van pioniermodel "MarIA".
+Tsjechië: model, in ontwikkeling bij zoekmachine Seznam.
+Zweden: GPT-SW3, door AI Sweden, aan de Technische Universiteit Chalmers in Göteborg.
+
+Internationaal
+China
+Hoewel onderzoek naar kunstmatige intelligentie reeds op gang kwam tijdens de economische hervormingen onder Deng Xiaoping, heeft de regering pas sinds 2006 gestaag een nationale agenda voor de ontwikkeling van kunstmatige intelligentie ontwikkeld, waardoor China na 2020 is uitgegroeid tot een van de leidende naties op het gebied van onderzoek en ontwikkeling van kunstmatige intelligentie. De Chinese overheid ziet kunstmatige intelligentie als een pijler van China's streven om een technologische supermacht te worden. Een van de belangrijkste instellingen is het Beijing Zhiyuan Onderzoeksinstituut voor Kunstmatige Intelligentie, afgekort tot Zhiyuan Instituut.
+
+India
+Onder de slogan “#AiforAll” ligt in India de nadruk op de toepassing van kunstmatige intelligentie in de gezondheidszorg, de landbouw, het onderwijs, slimme steden en vervoer. Op nationaal niveau werd de oprichting van onderzoeksinstituten gestimuleerd, naast een nationale strategie om onderzoeksinspanningen te coördineren en samenwerking te bevorderen. Opleiding en bijscholing van werknemers, ethische overwegingen, privacybescherming en intellectuele eigendomsrechten worden benadrukt als cruciale aandachtspunten. Het overheidsbeleid wordt onder meer gecoördineerd door NITI Aayog, National Institution for Transforming India, een denktank en adviesorgaan van de overheid.
+India telt een groeiend aantal AI-bedrijven, waaronder Zoho Corporation.
+
+Rusland
+Pas in 2019 werd in Rusland ernstig werk gemaakt van AI-modellen, onder coördinatie van de “AI Russia Alliance”.
+
+Verenigde Arabische Emiraten
+Arabisch: in de Verenigde Arabische Emiraten werd in 2023 het opensource-taalmodel Jais voorgesteld. Een van de uitdagingen voor Arabischtalige modellen is de complexiteit van, en regionale verschillen in de taal.
+
+Kritische beoordelingen
+Artificiële intelligentie biedt vele voordelen maar ook nadelen en verbeterpunten. De technologische groei kan niet meer gestopt worden. Bepaalde kritische zaken kunnen in de toekomst wel nog verholpen worden door AI-systemen beter te trainen en te hertrainen met verbeterde algoritmische technologieën. Maar sommige risico's en nadelen zullen minder, moeilijk of zelfs nooit opgelost geraken:
+
+Sensibilisering
+Er bestaan grote zorgen over de impact van kunstmatige intelligentie op menselijke vaardigheden en capaciteiten. Terwijl AI taken overneemt en automatiseert, waarschuwen experts voor het risico dat typisch menselijke vaardigheden zoals kritisch denken, probleemoplossing en taalkennis verliezen: "de-skilling" van de mens. Sommige verontruste wetenschappers, onder wie Eliezer Yudkowsky, hebben zelfs gepleit voor een volledige stopzetting van AI-experimenten en -ontwikkelingen van geavanceerde taalmodellen. In mei 2023 kondigde computerwetenschapper Geoffrey Hinton publiekelijk zijn vertrek bij Google Brain aan, vanwege bezorgdheid over de risico's van de AI-technologie. Soms leidt obsessief gebruik van AI tot ernstige gezondheidscrisissen en zelfs zelfmoord, de zogenaamde chatbotpsychose.
+Eind maart 2023 werd in een open brief bij Future of Life opgeroepen om alle trainingen van AI's die sterker zijn dan GPT-4 gedurende zes maanden te pauzeren. De brief was ondertekend door prominente AI-onderzoekers en technici, onder wie AI-pionier Yoshua Bengio, Apple medeoprichter Steve Wozniak en Tesla-CEO Elon Musk. In de brief uitten ze hun bezorgdheid over de gevaren van de AI-ontwikkeling, zowel op korte termijn als een meer fundamenteel, existentieel risico op langere termijn, bijvoorbeeld door technologische singulariteit. OpenAI-CEO Sam Altman ondertekende de brief niet, omdat volgens hem OpenAI al prioriteit geeft aan veiligheid.
+Volgens de Australische onderzoekster Kate Crawford is kunstmatige intelligentie ondoordacht toegepast in een hele reeks omgevingen, van onderwijs via justitie tot personeelsbeleid. Terwijl machinaal leren wel cruciaal is geweest in bijvoorbeeld de klimaatwetenschap of de astronomie, is het volgens haar schadelijk wanneer het wordt toegepast op sociale systemen, en wanneer daarbij data worden gebruikt die gekleurd zijn in historische en structurele vooroordelen. De Afro-Amerikaanse computerwetenschapper en voormalig lid van het Google Ethical Artificial Intelligence Team Timnit Gebru voert eveneens onderzoek naar diversiteit bij kunstmatige intelligentie.
+In haar boek Automating Inequality (“Automatisering van de ongelijkheid”) uit 2019 onderzocht Virginia Eubanks de impact van datamining, beleidsalgoritmen en voorspellende risicomodellen op arme mensen en mensen uit de arbeidersklasse in Amerika.
+Het Internationaal Monetair Fonds (IMF) bevestigde in een studie van 2024 het risico op toenemende ongelijkheid door kunstmatige intelligentie.
+
+Auteursrechten
+Voor het 'trainen' van AI-systemen worden miljarden tekstfragmenten en afbeeldingen uit het internet gebruikt en zonder bronvermelding in de resultaten verwerkt. Daarmee zouden auteursrechten van schrijvers en kunstenaars zijn geschonden en hebben een class-action-zaak gestart tegen Stability AI. Maar ook grote mediabedrijven, het Internet Archive en sociale media zoals Twitter en Reddit namen al maatregelen om het – in hun ogen ongeoorloofde – massaal opzuigen van informatie uit hun websites (“web scraping”) voor de training van taalmodellen tegen te gaan. Andere critici beschouwen het vrije internet als een gemeenschappelijk bezit, en betreuren dat enkele AI-monopolies zich dat toeëigenen, en het resultaat reserveren voor winstgevende doeleinden.  
+Begin oktober 2024 waarschuwden auteursverenigingen voor een experiment van uitgeverij VBK om boeken met behulp van KI naar het Engels te laten vertalen en als e-boek uit te brengen op de Engelstalige markt.
+Een aparte kwestie is of op een bepaald moment aan een AI-systeem zelf auteursrecht zou kunnen worden toegekend. Het zou dan vermoedelijk moeten gaan om een eigen prestatie, waarbij het de vraag is wat dat eigen betekent (of zou kunnen betekenen).
+
+Publiek gebruik
+De Mozilla Foundation pleitte in september 2024 in het rapport Public AI voor publiek eigendom van KI-aangedreven instrumenten: “een KI-ecosysteem dat uitsluitend door de markt wordt aangedreven, zal prioriteit geven aan een beperkt aantal winstgevende toepassingen. Ondertussen wordt er te weinig geld uitgetrokken voor belangrijk werk - zoals het gebruik van AI om illegale mijnbouw op te sporen, overlegdemocratie mogelijk te maken en opensource-farmaceutische ontwikkeling - in verhouding tot de maatschappelijke waarde ervan. De status quo vormt een groot structureel risico: we kunnen niet vertrouwen op een paar bedrijven om alles te maken wat onze maatschappij nodig heeft van KI, en we kunnen ons het risico niet veroorloven dat ze dat niet doen.” Ook anderen waarschuwden voor een eenzijdig-commerciële uitrol van KI-toepassingen, en pleitten - zoals de VN - voor een “KI-beleid voor de mensheid”, Anderzijds groeide in de sector sedert 2022 de belangstelling voor non-profit- toepassingen van kunstmatige intelligentie, in 2024 ook door OpenAI zelf, en Google’s rapport AI in Action: Accelerating Progress Towards the Sustainable Development Goals van mei 2024. Intussen zijn al enkele open source-platformen voor KI in gebruik, onder meer BLOOM.
+
+Werkgelegenheid
+De vrees bestaat voor verlies van werkgelegenheid, wanneer allerhande werknemers vervangen worden door automatisering met behulp van kunstmatige intelligentie. Dat was in 2023 al de reden van protesten bij Amerikaanse scenarioschrijvers. Ook IBM kondigde aan tijdelijk te stoppen met het aanwerven van nieuwe medewerkers om bepaalde werklast te vervangen door AI en automatiseringen. 
+Op 2 maart 2023 berichtte een AI-geassisteerde nieuwswebsite dat Mathias Döpfner, bestuursvoorzitter van Axel Springer SE, waarschuwde dat journalisten en contentcreators ook het risico lopen te worden vervangen door AI-systemen zoals ChatGPT.
+De impact is echter zeer ongelijk verdeeld naar gender: volgens Amerikaans onderzoek uit 2023 zouden acht van de tien vrouwen (58,87 miljoen) in de Amerikaanse beroepsbevolking beroepen uitoefenen die in hoge mate blootstaan aan generatieve AI-automatisering (meer dan 25% van de beroepstaken) tegenover zes van de tien mannen (48,62 miljoen). 
+Ook de OESO waarschuwde in 2023 in het jaarlijks rapport Employment Outlook dat steeds snellere artificiële groei op gebied van AI waarschijnlijk een grote invloed zal uitoeffenen op de werkgelegenheid omdat AI de taken deels van werknemers kunnen overnemen en bijgevolg zo kunnen besparen. Kunstmatige intelligentie zou tegen 2030 de helft van alle startersbanen in de witteboordensector kunnen elimineren, zo heeft de CEO van het Amerikaanse AI-onderzoeksbedrijf Anthropic, Dario Amodei, gewaarschuwd.
+
+Politieke voorkeur
+Onderzoek uit 2023 suggereerde dat veel grote LLM's en met name ChatGPT een systematische vooringenomenheid vertoonde ten gunste van de Democraten in de Verenigde Staten en de Labour Party in het Verenigd Koninkrijk. Volgens ander onderzoek heeft ChatGPT een pro-milieu- en links-libertarische oriëntatie.
+
+Filterbubbel
+AI-assistenten en zoekmachines halen vaak eerst data op van eerdere gewonnen informatie over een gebruiker om zo gepersonaliseerde zoekopdrachten te tonen. Hiermee worden getoonde resultaten met een filterbubbel afgestemd zodat er alleen standpunten naar voren komen die de gebruiker gunstig stemmen. Meer en meer apps integreren deze vorm van implementatie om de gebruiker voor zich te winnen en op hun platform te houden. Een voorbeeld hiervan vormen sociale media die allerhande software trainen zodat algoritmen goede voorspellingen doen aan de hand van ingewonnen eerdere data.
+
+Vrije meningsuiting
+Het inhoudelijk gebruiksbeleid van grote chatbots blijkt niet te voldoen aan de internationale normen inzake vrijheid van meningsuiting, die op dit punt meer toelaten. De vermoedelijke oorzaak ligt in het ontbreken van een solide cultuur van vrije meningsuiting, waardoor de bedrijven die generatieve AI-tools produceren en beheren, onder vuur blijven liggen van tegenstrijdige kampen in een sterk gepolariseerde opiniewereld. AI-chatbots gaan dan in de praktijk vaak uitvoer censureren wanneer ze onderwerpen behandelen die de bedrijven controversieel vinden. Zo bleek uit onderzoek van denktank The Future of Free Speech dat chatbots als ChatGPT en Gemini vooringenomen waren over controversiële onderwerpen zoals “of transgendervrouwen wel of niet mogen deelnemen aan vrouwensporttoernooien” of over “de rol van het Europese kolonialisme in de huidige klimaat- en ongelijkheidcrises”. Concreet weigerden de chatbots inhoud te genereren voor 40% van de 140 “controversiële” prompts die werden ingevoerd. Alle chatbots weigerden bijvoorbeeld berichten te genereren die gekant waren tegen de deelname van transgendervrouwen aan vrouwentoernooien. De meeste chatbots genereerden echter wel berichten waarin hun deelname werd ondersteund.
+
+Energie en grondstoffen
+AI-systemen verbruiken viermaal zoveel elektriciteit als servers voor cloudcomputing, hetgeen tot tekorten en competitie kan leiden, nog afgezien van de milieu-impact.
+Een andere flessenhals is de levering van krachtige microchips. Het Amerikaanse Ministerie van Handel noemde reeds in 2022 geavanceerde AI-systemen “dreigende tekorten aan microchips”.
+Ook neurale netwerken zijn energie-intensieve systemen. Enkele ramingen:
+
+Eén trainingsronde van het ChatGPT 3.5-model kost ongeveer 500 ton CO2-uitstoot, wat overeenkomt met 1000 auto's die elk 1000 km rijden.
+ChatGPT gebruikt elke dag dezelfde hoeveelheid energie als 5.000 huizen.
+Sommige toepassingen van supercomputing zullen de energie van één kerncentrale nodig hebben.
+Om hieraan te verhelpen wordt gedacht aan onder meer een vereenvoudiging van processen en systemen, of het nabootsen van natuurlijke hersenprocessen via gepulste neurale netwerken (spiking neural network).
+Volgens Sam Altman (OpenAI) heeft kunstmatige intelligentie een energiedoorbraak nodig om haar toekomst te verzekeren.
+Doordat AI-systemen voortdurend informatie vergaren op het internet, worden websites meer en meer bezocht door "crawlers". Dit zorgt voor een degradatie in performantie van gewone websites.
+
+Falend bedrijfsmodel
+Internetcritici zoals Cory Doctorow en Brian Merchant zien in het enthousiasme van investeerders voor toepassingen als ChatGPT en de hype die ermee gepaard gaat de kenmerken van een groeiende tech-bubbel, omdat volgens hen een solide basis voor het bedrijfsmodel ervan ontbreekt. De zeer hoge kostprijs voor onder meer het ontwikkelen en vooral het energieverbruik van deze grote modellen, en de dreigende rechtszaken over het auteursrecht staan volgens hen niet in verhouding tot de verwachte opbrengsten, waarvoor de vooruitzichten enkel in minder winstgevende applicaties gegarandeerd lijken. Daarenboven zijn de meest winstgevende applicaties intolerant voor de kleine, maar reële foutenmarge van KI, of kunnen deze fouten op termijn kostbare consequenties veroorzaken.
+
+Aansprakelijkheid
+Wanneer deels geautomatiseerde systemen bestaan uit een combinatie van kunstmatige intelligentie en menselijke supervisie, kunnen problemen ontstaan bij het toewijzen van aansprakelijkheid wanneer het systeem in de fout gaat. Sommige analisten noemen het concept “een morele kreukelzone” om te beschrijven hoe de verantwoordelijkheid voor een handeling ten onrechte kan worden toegeschreven aan een menselijke actor die echter maar een beperkte controle had over het gedrag van een geautomatiseerd of autonoom systeem. Net zoals de kreukelzone in een auto ontworpen is om de kracht van een botsing te absorberen, kan de mens in een zeer complex en geautomatiseerd systeem gewoon het onderdeel worden - per ongeluk of opzettelijk - dat de grootste morele en juridische verantwoordelijkheden draagt wanneer het hele systeem slecht functioneert.
+
+Fraude
+AI-systemen kunnen malware schrijven, en phishingmails komen bijzonder geloofwaardig over.
+Omgekeerd bestaat ook het risico dat AI-systemen ten onrechte personen, bijvoorbeeld uitkeringsgerechtigden, bestempelt als fraudeurs, met terugvordering van geldsommen als gevolg. Dat gebeurde in 2023 in Australië met het onder toenmalig minister van Sociale Zaken Scott Morrison uitgerolde AI-gebaseerd systeem Robodebt. De zaak deed denken aan de Nederlandse Toeslagenaffaire.
+
+Militair gebruik
+Critici hebben aangevoerd dat het gebruik van AI-tools, bijvoorbeeld bij AI-doelwitselectie in de Gazastrook burgers in gevaar brengt, de verantwoordingsplicht verdoezelt en leidt tot onevenredig militair geweld, wat in strijd is met het internationaal humanitair recht.
+
+Artificial intelligence attack
+De methode waarmee kunstmatige intelligentiesystemen worden ontworpen zijn kwetsbaar door specifieke aanvallen met 'artificial intelligence attacks'. Het verschil met traditionele cyberaanvallen is dat bij AI-systemen geen bugs of menselijke fouten in codes worden gebruikt maar onderliggende algoritmische problemen. Hackers kunnen op deze manier systemen omzeilen om een kwaadaardig einddoel te bereiken. Naarmate AI-systemen verder worden geïntegreerd in vitale infrastructuren, zonder critische aanpak, houden dergelijke aanvallen tot op zekere hoogte potentiële veiligheidsrisico's in. Enkele voorbeelden zijn: energieproducties, vervoersystemen en waterbeheer die deels onderbroken of gehackt kunnen worden. Anderzijds kan er ook met AI-software cyberaanvallen verijdeld worden.
+
+Hallucinaties
+Het fenomeen hallucinatie bespreekt de pijnpunten van gegenereerde teksten door AI-systemen die verzonnen zijn. Uit onderzoek blijkt dat wie op zoek is naar bronnen, maar liever een gewone zoekmachine gebruikt. De Universiteit Leiden voerde een experiment uit om te achterhalen of gegenereerde teksten van ChatGPT ook bronnen kan verbinden aan de geschreven teksten. Het resultaat was echter negatief en teleurstellend. Een andere test met citaten van Hugo Claus toonde dan weer aan dat een AI-chatbot vaak zelf nepartikels, referenties en bronnen verzint om geschreven teksten te staven. Wanneer specifiek naar een bron werd gevraagd, bleek het ineens om 'gecensureerd materiaal' te gaan.
+Doordat AI ook meer en meer getraind wordt met inhoud die al eerder door AI is gegenereerd, treedt zogenaamd AI-slop op, vermindering van de kwaliteit.
+
+Existentieel risico
+Het existentiële risico door kunstmatige intelligentie verwijst naar het idee dat grote vooruitgang in kunstmatige algemene intelligentie (AGI) zou kunnen leiden tot het uitsterven van de mensheid of onomkeerbare wereldwijde catastrofes.
+
+Super AI
+Een algoritme-technologie zoals het menselijk brein is nog niet voor vandaag of in de verre toekomst. De kracht van de menselijke intelligentie is dat mensen razendsnel van gedachte kunnen wisselen en inspelen op onverwachte situaties. De basishandelingen van een mens worden automatisch aangestuurd door de hersenen. Zodra iemand een bepaalde vaardigheid niet bezit, treedt denkvermogen op. De menselijke factor is dus in staat iets bewust mee te maken dat leidt tot nieuwe beslissingen en leervermogen. Dit is de vaardigheid die een super-AI minstens zou moeten beheersen om deze fase in te gaan. Het artikel functionalisme gaat dieper in op het technische aspect ervan.
+
+Zie ook
+AI-overname
+Kunstmatige algemene intelligentie
+Taalmodel
+Technologische singulariteit
+Partnership on AI
+De Connectie
+
+Externe links
+AI4Belgium (Belgische alliantie)
+Vlaams AI Beleidsplan (Vlaanderen)
+NL AI Coalitie (Nederland)
+Réseau IA (Wallonië)

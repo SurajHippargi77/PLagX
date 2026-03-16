@@ -1,0 +1,5 @@
+Artificial intelligence is intelligence demonstrated by machines, and in computer science it refers to systems that can perform tasks normally requiring human intelligence.
+Machine learning is a subset of artificial intelligence in which a model learns from data to make predictions without explicit rule-by-rule programming.
+Climate change, also called climate variation, is a long-term global change in Earth's climate system.
+In modern usage, climate change often refers to global warming caused mainly by human activities and greenhouse-gas emissions.
+Renewable energy comes from naturally replenished sources such as sunlight, wind, and water, and it is essential for a sustainable energy transition.
